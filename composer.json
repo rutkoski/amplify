@@ -1,0 +1,16 @@
+{
+    "name": "rutkoski/amplify",
+    "type": "library",
+    "require": {
+        "rlanvin/php-rrule": "^1.5",
+        "rutkoski/simplify-validation": "^1.0"
+    },
+    "autoload": {
+        "files": [
+        	"helpers/core.php",
+        	"helpers/forms.php"
+        ],
+        "psr-0": { "Amplify\\": "src/" }
+    },
+    "minimum-stability": "dev"
+}
